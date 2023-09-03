@@ -3,7 +3,7 @@ import React from "react";
 function WeatherCard(props) {
   return (
     <div>
-      <div className="card" style={{width: 20 + 'rem'}}>
+      <div className="card mx-auto" style={{width: 20 + 'rem'}}>
         <img src="..." className="card-img-top" alt="..." />
         <div className="card-body">
           <h3 className="card-title">{props.name}</h3>
