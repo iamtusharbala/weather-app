@@ -5,7 +5,6 @@ import Footer from "./components/Footer";
 
 function App() {
   var tempData = weatherData.days;
-  console.log(tempData[0]);
   return (
     <div>
       <Navbar />
